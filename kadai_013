@@ -1,0 +1,4 @@
+def two_factors(products_price, tax):
+  total = products_price + (products_price * tax)
+  print(f"{total}円")
+two_factors(5500,0.1)
