@@ -1,0 +1,8 @@
+price1 = 100
+price2 = 200
+tax = 1.1  # tax を関数の外で定義
+
+def total():
+    return price1 + price2
+
+print(total() * tax)
